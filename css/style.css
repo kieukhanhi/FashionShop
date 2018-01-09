@@ -1,0 +1,205 @@
+body{
+    width: 100%;
+    margin: 0 auto;
+}
+#container{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+
+
+a{
+    text-decoration: none;
+    color: #1A1A1A;
+}
+
+.top-header{
+    width:100%;
+    margin: 0 auto;
+    background: #dbdbdb;
+    height: 50px;
+    line-height: 50px;
+    text-align: right;
+}
+
+.login{
+    right: 100px;
+}
+
+
+
+#menu{
+    width: 1000px;
+    height: auto;
+    background: #FF86E1;
+    margin: 0 auto;
+}
+.logo{
+    float: left;
+    margin-top: 9px;
+}
+.menu-nav{
+    float: right;
+}
+.nav{
+    margin: 0;
+    padding: 0;
+}
+.nav li{
+    float: left;
+    list-style: none;
+    width: 120px;
+    height: 20px;
+    padding: 30px 20px 30px 20px;
+}
+.nav li a{
+    padding: 5px;
+    font-size: 18px;  
+}
+
+.menu-nav li{
+    text-align: center;
+}
+
+.nav li:hover{
+    background:yellow;
+    color: red;
+}
+
+.submenu{
+    display: none;
+    background:white;
+    position: absolute;
+    top: 130PX;
+    left: 520px;
+}
+
+.submenu li{
+    
+    width: 120px;
+    height: 25px;
+    margin: 0 0 1px 0;
+    text-align: left;
+}
+.nav li:hover .submenu{
+   display: block;
+    
+}
+
+
+
+
+.banner{
+    width: 1000px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+.banner-1{
+    width: 100%;
+    height: auto;
+    float: left;
+}
+
+#content{
+    width: 1000px;
+    height: auto;
+    background: #B1E651;
+    margin: 0 auto;
+    clear: both;
+}
+
+.new-product{
+    background: #fff;
+    width: 100%;
+    clear: both;
+    float: left;
+}
+.title-new{
+    font-size: 21px;
+    color:#424242;
+    margin: 10px 0px 20px 0px;
+    padding: 5px;
+    border-bottom: 1px solid #eaeaea;
+}
+
+.list-product{
+    width: 100%;
+    
+}
+.product{
+    width: 200px;
+    height: auto;
+    float: left;
+    margin-right: 15px;
+    margin-left: 15px;
+    padding: 8px;
+    border: 1px solid #eaeaea;
+}
+.price{
+    font-size: 22px;
+    color: #ec407a;
+    margin-top: 0px;
+}
+
+
+
+.sell-product{
+    background: #fff;
+    height:auto;
+    float: left;
+    margin-top: 30px;
+    margin-bottom: 30px
+}
+
+
+#footer{
+   
+    background-color: #9f9f9f;
+    height: 50px;
+    clear: both;
+    color: #fff;
+    text-align: center;
+    line-height: 50px;
+
+}
+
+<!--form dang nhap-->
+
+form {
+    border: 3px solid #f1f1f1;
+}
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+
+img.avatar {
+    width: 10%; 
+}
